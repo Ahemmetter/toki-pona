@@ -6,27 +6,37 @@
 \let\footruleskip\undefined %undefine footruleskip
 \usepackage{fancyhdr}
 \usepackage{multicol}
-\usepackage{textcomp}
-\usepackage{amsthm}
+% \usepackage{textcomp}
+% \usepackage{amsthm}
 \usepackage{framed}
 \usepackage{multirow}
-\usepackage{bbold}
-\usepackage{amssymb}
+\usepackage{xhfill}
+% \usepackage{bbold}
+% \usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{graphicx}
 %\usepackage{braket}
-\usepackage{tikz}
-\usetikzlibrary{arrows}
+% \usepackage{tikz}
+% \usetikzlibrary{arrows}
 \setlength{\headheight}{15.2pt}
 \begin{document}
 \pagestyle{fancyplain}
 \fancyhf{}
 \rhead{\textbf{\textit{Toki Pona}} - \href{mailto:a.hemmetter@gmail.com}{A. Hemmetter} }
-\rfoot{\scriptsize{This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}.}}
+\rfoot{\scriptsize{This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}. Image by Bryant Knight (jan Pije).}}
 \begin{center}
-\rule{40mm}{2pt}$~\big\{$\textbf{{\large  Toki Pona}}$\big\}~$\rule{40mm}{2pt}
-%\rule{15cm}{0.2pt}
+
+\begin{tabular}[t]{@{}l}
+\rule[4pt]{0.35\linewidth}{4pt}
+\end{tabular}
+\begin{tabular}[t]{@{}}
+\fontsize{24pt}{10pt}
+\textbf{Toki Pona}
+\end{tabular}
+\begin{tabular}[t]{r@{}}
+\rule[4pt]{0.35\linewidth}{4pt}
+\end{tabular}
 \end{center}
 
 \paragraph{What is Toki Pona?}
@@ -47,12 +57,12 @@ Go ahead and stick words to each other to express what you want to say. If the s
 
 \paragraph{Negation and Questions}
 
-A word can be negated by placing \textbf{ala} [\textit{not}] after the verb: \textbf{mi wile ala tawa musi} [\textit{I don't want to dance}]; it essentially acts as an adjective (like also \textbf{ali} [\textit{all}]). Yes/No questions are formed by repeating the verb after \textbf{ala}: \textbf{sina pona ala pona?} [\textit{Are you okay?}]. To answer, repeat the verb with or without \textbf{ala}. To ask for the subject, \textbf{seme} is used: \textbf{seme li lon tomo mi?} [\textit{What is in my house?}]. It can also be used to ask for the direct object (\textbf{sina lukin e seme?} [\textit{What are you watching?}]), the person (\textbf{jan seme li moku?} [\textit{Who is eating?}]), the reason (\textbf{sina kama tan seme?} [\textit{Why did you come?}]) or for a specific thing (\textbf{ma seme li pona tawa sina?} [\textit{Which countries do you like?}]). The word \textbf{anu} [\textit{either/or}] gives a choice between two options: \textbf{sina jo e kili anu telo nasa?} [\textit{Do you have fruit, or is it the wine that you have?}].
+A word can be negated by placing \textbf{ala} [\textit{not}] after the verb: \textbf{mi wile ala tawa musi} [\textit{I don't want to dance}]; it essentially acts as an adjective (like also \textbf{ali} [\textit{all}]). Yes/No questions are formed by repeating the verb after \textbf{ala}: \textbf{sina pona ala pona?} [\textit{Are you okay?}]. To answer, repeat the verb with or without \textbf{ala}. To ask for the subject, \textbf{seme} is used: \textbf{seme li lon tomo mi?} [\textit{What is in my house?}]. It can also be used to ask for the direct object (\textbf{sina lukin e seme?} [\textit{What are you watching?}]), the person (\textbf{jan seme li moku?} [\textit{Who is eating?}]), the reason (\textbf{sina kama tan seme?} [\textit{Why did you come?}]) or for a specific thing (\textbf{ma seme li pona tawa sina?} [\textit{Which countries do you like?}]). The word \textbf{anu} [\textit{either/or}] gives a choice between two options: \textbf{sina jo e kili anu telo nasa?} [\textit{Do you have fruit, or is it the wine that you have?}], \textbf{... anu seme?} [\textit{..., or what?}].
 \end{multicols}
 
 \paragraph{Prepositions}
 
-Prepositions can also act as verbs, nouns or adjectives, just like any other word, but do not require \textbf{e} before an object. These are \textbf{lon} [\textit{to be in/at something}], \textbf{kepeken} [\textit{to use with something}], \textbf{tawa} [\textit{to move to somewhere}], \textbf{kama} [\textit{to come/cause}], \textbf{sama} [\textit{like}], \textbf{tan} [\textit{because}] and \textbf{poka} [\textit{beside}]. Related to that are modal (helping) verbs such as \textbf{weli} [\textit{want/need}], which can stand right before the predicate (without \textbf{li}).
+Prepositions can also act as verbs, nouns or adjectives - just like any other word - but do not require \textbf{e} before an object. These are \textbf{lon} [\textit{to be in/at something}], \textbf{kepeken} [\textit{to use with something}], \textbf{tawa} [\textit{to move to somewhere}], \textbf{kama} [\textit{to come/cause}], \textbf{sama} [\textit{like}], \textbf{tan} [\textit{because}] and \textbf{poka} [\textit{beside}]. Related to that are modal (helping) verbs such as \textbf{weli} [\textit{want/need}], which can stand right before the predicate (without \textbf{li}).
 
 \begin{multicols}{2}
 \noindent\textbf{suno li lon sewi} [\textit{The sun is in the sky}]\\
@@ -93,54 +103,57 @@ If absolutely necessary, tenses can be expressed by \textbf{tenpo pini la ...} (
 \end{multicols}
 
 \begin{center}
-\begin{tabular}{cccccccc}
-\toprule
-a & akesi & ala & alasa & ale & anpa & ante & anu\\
-(emphasis) & lizard & no & hunt & all & low & different & or\\
-\midrule
-awen & e & en & esun & ijo & ike & ilo & insa\\
-keep & (object) & (and) & shop & thing & bad & tool & inside\\
-\midrule
-jaki & jan & jelo & jo & kala & kalama & kama & kasi\\
-dirty & person & yellow & have & fish & sound & come & plant\\
-\midrule
-ken & kepeken & kili & kiwen & ko & kon & kule & kulupu\\
-can & use & fruit & rock & paste & air & color & group\\
-\midrule
-kute & la & lape & laso & lawa & len & lete & li\\
-hear & (context) & sleep & green & head & cloth & cold & (predicate)\\
-\midrule
-lili & linja & lipu & loje & lon & luka & lukin & lupa\\
-small & line & paper & red & at & hand & see & hole\\
-\midrule
-ma & mama & mani & meli & mi & mije & moku & moli\\
-land & parent & money & woman & me & man & eat & dead\\
-\midrule
-monsi & mu & mun & musi & mute & nanpa & nasa & nasin\\
-back & (meow) & moon & play & many & number & strange & way\\
-\midrule
-nena & ni & nimi & noka & o & olin & ona & open\\
-mountain & this & name & foot & (command) & love & it & open\\
 
-\midrule
-pakala & pali & palisa & pan & pana & pi & pilin & pimeja\\
-break & do & stick & food & give & of & feel & black\\
-\midrule
-pini & pipi & poka & poki & pona & pu & sama & seli\\
-end & bug & near & container & good & book & same & fine\\
+\includegraphics[width=0.95\linewidth]{tokipona.png}
 
-\midrule
-selo & seme & sewi & sijelo & sike & sin & sina & sinpin\\
-skin & what & high & form & circle & new & you & face\\
-
-\midrule
-sitelen & sona & soweli & suli & suno & supa & suwi & tan\\
-picture & know & animal & big & sun & table & sweet & from\\
-
-\midrule
-taso & tawa & telo & tenpo & & & & \\
-but & to & water & time & & & & \\
-\bottomrule
-\end{tabular}
+% \begin{tabular}{cccccccc}
+% \toprule
+% a & akesi & ala & alasa & ale & anpa & ante & anu\\
+% (emphasis) & lizard & no & hunt & all & low & different & or\\
+% \midrule
+% awen & e & en & esun & ijo & ike & ilo & insa\\
+% keep & (object) & (and) & shop & thing & bad & tool & inside\\
+% \midrule
+% jaki & jan & jelo & jo & kala & kalama & kama & kasi\\
+% dirty & person & yellow & have & fish & sound & come & plant\\
+% \midrule
+% ken & kepeken & kili & kiwen & ko & kon & kule & kulupu\\
+% can & use & fruit & rock & paste & air & color & group\\
+% \midrule
+% kute & la & lape & laso & lawa & len & lete & li\\
+% hear & (context) & sleep & green & head & cloth & cold & (predicate)\\
+% \midrule
+% lili & linja & lipu & loje & lon & luka & lukin & lupa\\
+% small & line & paper & red & at & hand & see & hole\\
+% \midrule
+% ma & mama & mani & meli & mi & mije & moku & moli\\
+% land & parent & money & woman & me & man & eat & dead\\
+% \midrule
+% monsi & mu & mun & musi & mute & nanpa & nasa & nasin\\
+% back & (meow) & moon & play & many & number & strange & way\\
+% \midrule
+% nena & ni & nimi & noka & o & olin & ona & open\\
+% mountain & this & name & foot & (command) & love & it & open\\
+%
+% \midrule
+% pakala & pali & palisa & pan & pana & pi & pilin & pimeja\\
+% break & do & stick & food & give & of & feel & black\\
+% \midrule
+% pini & pipi & poka & poki & pona & pu & sama & seli\\
+% end & bug & near & container & good & book & same & fine\\
+%
+% \midrule
+% selo & seme & sewi & sijelo & sike & sin & sina & sinpin\\
+% skin & what & high & form & circle & new & you & face\\
+%
+% \midrule
+% sitelen & sona & soweli & suli & suno & supa & suwi & tan\\
+% picture & know & animal & big & sun & table & sweet & from\\
+%
+% \midrule
+% taso & tawa & telo & tenpo & & & & \\
+% but & to & water & time & & & & \\
+% \bottomrule
+% \end{tabular}
 \end{center}
 \end{document}

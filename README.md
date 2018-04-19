@@ -5,7 +5,7 @@ Python translator for Toki Pona, the Good Language
 
 ## Toki Pona
 
-Toki Pona is a constructed, minimalist language. It consists in total of 123 words, each of which describes a wide variety of concepts. The language was invented by the Canadian linguist Sonja Lang in 2001.
+[Toki Pona](http://www.wikiwand.com/en/Toki_Pona) is a constructed, minimalist language. It consists in total of 123 words, each of which describes a wide variety of concepts. The language was invented by the Canadian linguist Sonja Lang in 2001.
 
 More complicated concepts are expressed by forming compounds/descriptive sentences. Words do not change with gender, case, number, tense or voice.
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1526586798 "tokipona.tex" "tokipona.pdf" "tokipona" 1526586828
+["pdflatex"] 1526632752 "tokipona.tex" "tokipona.pdf" "tokipona" 1526632833
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -65,12 +65,12 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1520668490 4129592 0f1587963a4f6eac5eff1d65f6f3e8b3 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "tokipona.aux" 1526586803 1456 8da5172d5b7021d8e94c50b031577cab ""
-  "tokipona.out" 1526586799 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "tokipona.aux" 1526632755 1456 8da5172d5b7021d8e94c50b031577cab ""
+  "tokipona.out" 1526632753 0 d41d8cd98f00b204e9800998ecf8427e ""
   "tokipona.png" 1524416439 757400 cad266d939b9487f92f211ed707772a2 ""
-  "tokipona.tex" 1526586798 11980 3a630debf790086588b98493423e3df7 ""
+  "tokipona.tex" 1526632752 11980 f368d0a0ae6cd92cc3e2a7828c9cfbc1 ""
   (generated)
-  "tokipona.log"
-  "tokipona.aux"
-  "tokipona.out"
   "tokipona.pdf"
+  "tokipona.out"
+  "tokipona.aux"
+  "tokipona.log"

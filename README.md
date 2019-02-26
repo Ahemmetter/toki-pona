@@ -1,7 +1,5 @@
 # toki-pona
-Python translator for Toki Pona, the Good Language
-
-## Resources for Toki Pona
+Resources for Toki Pona
 
 ## Toki Pona
 
